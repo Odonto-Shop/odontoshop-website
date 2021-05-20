@@ -8,10 +8,7 @@ const IndexPage = () => (
     <Seo title='Home' />
     <h1>Olá visitante</h1>
     <p>Bem vindos ao site da Odonto Shop.</p>
-    <p>
-      Estamos preparando um website completo onde você encontrará tudo que
-      precisa em breve.
-    </p>
+    <p>Em breve você encontrará um website completo.</p>
   </Layout>
 )
 
