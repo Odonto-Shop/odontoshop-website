@@ -1,8 +1,3 @@
-<style type="text/css">
-  body {
-    background-color: #FFF;
-  }
-</style>
 <br>
 <h1 align="center">
     <img alt="Odonto Shop" title="Odonto Shop" src=".github/odontoshop_logo.svg" width="320px" />
