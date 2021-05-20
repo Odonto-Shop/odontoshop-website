@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Odonto Shop`,
-    description: `Website of Jupi Alimentos.`,
+    description: `Website of Odonto Shop.`,
     author: `@laurielmesquita`
   },
   plugins: [
