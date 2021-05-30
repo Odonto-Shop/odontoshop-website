@@ -28,7 +28,7 @@ const GlobalStyles = createGlobalStyle`
     min-height: 100vh;
     scroll-behavior: smooth;
     font-family: var(--body-font), -apple-system, BlinkMacSystemFont, sans-serif, "Apple Color Emoji";
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: -.022em;
     text-rendering: optimizeLegibility;
@@ -51,7 +51,7 @@ const GlobalStyles = createGlobalStyle`
   h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1.875rem;
     font-family: var(--header-font), sans-serif;
-    font-weight: 900;
+    font-weight: 700;
     line-height: 1.2;
     color: var(--header-color);
   }

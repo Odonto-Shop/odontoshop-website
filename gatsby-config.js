@@ -5,6 +5,20 @@ module.exports = {
     author: `@laurielmesquita`
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-webfonts',
+      options: {
+        fonts: {
+          google: [
+            {
+              family: 'Open Sans',
+              variants: ['400', '600', '700']
+            }
+          ]
+        }
+      }
+    },
+    'gatsby-plugin-styled-components',
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {

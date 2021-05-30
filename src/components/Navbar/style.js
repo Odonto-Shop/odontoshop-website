@@ -90,6 +90,9 @@ export const NavItem = styled(Link)`
   transition: all 200ms ease-in;
   position: relative;
   color: #fff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
 
   &.active {
     ::after {
@@ -119,7 +122,7 @@ export const NavItem = styled(Link)`
   }
 
   @media (max-width: 768px) {
-    padding: 20px 0;
+    padding: 1.25rem 0;
     font-size: 1.5rem;
     z-index: 6;
   }

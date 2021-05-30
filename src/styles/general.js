@@ -68,7 +68,7 @@ export const general = css`
     }
 
     p {
-      font-weight: 500;
+      font-weight: 400;
       font-size: 18px;
       line-height: 27px;
 
@@ -151,7 +151,7 @@ export const general = css`
     .dark & {
       display: inline-block;
       color: var(--yellow);
-      font-weight: 500;
+      font-weight: 400;
 
       & span.arrow {
         opacity: 0.75;
