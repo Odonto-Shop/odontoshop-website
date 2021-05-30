@@ -3,12 +3,14 @@ import * as React from 'react'
 import Layout from '../components/Layout'
 import Seo from '../components/seo'
 
-const IndexPage = () => (
+const ServicePage = () => (
   <Layout>
     <Seo title='Produtos' />
-    <h1>Nossos Produtos</h1>
-    <p>Conheça nossa linha de produtos</p>
+    <div className='container'>
+      <h1>Nossos Produtos</h1>
+      <p>Conheça nossa linha de produtos</p>
+    </div>
   </Layout>
 )
 
-export default IndexPage
+export default ServicePage
