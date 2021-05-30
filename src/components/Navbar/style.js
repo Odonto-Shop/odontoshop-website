@@ -37,6 +37,7 @@ export const Navbox = styled.div`
   align-items: center;
 
   @media (max-width: 768px) {
+    text-align: center;
     flex-direction: column;
     position: fixed;
     width: 100%;
@@ -79,6 +80,18 @@ export const Hamburger = styled.div`
     opacity: ${props => (props.open ? '0' : '1')};
     transform: ${props => (props.open ? 'rotate(90deg) ' : 'rotate(0deg)')};
     top: 10px;
+  }
+`
+
+export const MenuList = styled.ul`
+  @media (min-width: 769px) {
+    display: flex;
+    height: 100%;
+
+    li {
+      display: flex;
+      align-items: center;
+    }
   }
 `
 

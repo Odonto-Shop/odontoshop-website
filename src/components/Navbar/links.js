@@ -1,17 +1,19 @@
 import React from 'react'
 
-import { NavItem } from './style'
+import links from './data'
+import { MenuList, NavItem } from './style'
 
 const NavbarLinks = () => {
   return (
-    <>
-      <NavItem activeClassName='active' to='/about/'>
-        Sobre Nós
-      </NavItem>
-      <NavItem to='/products/'>Produtos</NavItem>
-      <NavItem to='/services/'>Serviços</NavItem>
-      <NavItem to='/contact/'>Contato</NavItem>
-    </>
+    <MenuList>
+      {links.main.map((link, i) => (
+        <li key={i}>
+          <NavItem to={link.url} activeClassName='active' title={link.title}>
+            {link.label}
+          </NavItem>
+        </li>
+      ))}
+    </MenuList>
   )
 }
 
