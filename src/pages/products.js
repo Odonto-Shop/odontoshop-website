@@ -7,7 +7,7 @@ const ProductPage = () => (
   <Layout>
     <Seo title='Produtos' />
     <div className='container'>
-      <h1>Nossos Produtos</h1>
+      <h1>Nossos Serviços</h1>
       <p>Conheça nossa linha de produtos</p>
     </div>
   </Layout>
