@@ -8,7 +8,12 @@ const NavbarLinks = () => {
     <MenuList>
       {links.main.map((link, i) => (
         <li key={i}>
-          <NavItem to={link.url} activeClassName='active' title={link.title}>
+          <NavItem
+            to={link.url}
+            activeClassName='active'
+            partiallyActive
+            title={link.title}
+          >
             {link.label}
           </NavItem>
         </li>
