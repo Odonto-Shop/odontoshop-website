@@ -38,7 +38,6 @@ const IndexPage = () => (
           <StaticImage
             src='../images/odontoshop-logo.png'
             quality={95}
-            formats={['AUTO', 'WEBP', 'AVIF']}
             alt='Odonto Shop'
           />
         </div>
