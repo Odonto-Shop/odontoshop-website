@@ -5,7 +5,7 @@ import Seo from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
-    <Seo title='Em Breve' />
+    <Seo title='Home' />
     <div className='container'>
       <h1>Olá visitante</h1>
       <p>Bem vindos ao site da Odonto Shop.</p>
