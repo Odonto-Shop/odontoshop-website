@@ -1,7 +1,7 @@
 {
   "name": "odontoshop",
   "private": true,
-  "description": "Website of Odonto Shop.",
+  "description": "Website da Odonto Shop.",
   "version": "0.1.0",
   "author": "Lauriel Mesquita <laurielmesquita@me.com>",
   "dependencies": {

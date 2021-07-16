@@ -51,7 +51,7 @@ const IndexPage = () => {
               <h2>
                 <span>
                   Nossa esquipe está trabalhando em um website completo para
-                  você. Volte em alguns dias.
+                  você. Volte em alguns dias
                 </span>
               </h2>
 
