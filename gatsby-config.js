@@ -5,22 +5,10 @@ module.exports = {
     author: `@laurielmesquita`
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-webfonts',
-      options: {
-        fonts: {
-          google: [
-            {
-              family: 'Open Sans',
-              variants: ['400', '600', '700']
-            }
-          ]
-        }
-      }
-    },
-    'gatsby-plugin-styled-components',
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -28,7 +16,26 @@ module.exports = {
         path: `${__dirname}/src/images`
       }
     },
-    `gatsby-transformer-sharp`,
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'Cairo',
+          'Roboto:300,400,500,400i,700',
+          'Frank Ruhl Libre:300,400,500,700',
+          'DM Sans:400,400i,500,500i,700,700i',
+          'Lato',
+          'Comfortaa:300,400,500,600,700',
+          'Playfair Display',
+          'Anton',
+          'Abril Fatface',
+          'Montserrat:700',
+          'DM Sans:500,700',
+          'Roboto:400,500',
+          'Open Sans:400,600,700'
+        ]
+      }
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

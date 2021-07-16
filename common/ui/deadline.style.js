@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const PageWrapper = styled.section`
   div[lang='ar'],
@@ -12,7 +12,7 @@ const PageWrapper = styled.section`
       }
     }
   }
-`;
+`
 
 export const MainWrapper = styled.section`
   background-color: #fff;
@@ -23,7 +23,7 @@ export const MainWrapper = styled.section`
   @media only screen and (max-width: 1024px) {
     display: block;
   }
-`;
+`
 
 export const LeftSection = styled.div`
   background-color: #f6f9fb;
@@ -41,20 +41,23 @@ export const LeftSection = styled.div`
   @media only screen and (max-width: 480px) {
     min-height: 85vh;
   }
-`;
+`
 
 export const Logo = styled.div`
   text-align: center;
-  @media only screen and (max-width: 1600px) {
-    padding-top: 30px;
-  }
-  @media only screen and (min-width: 1200px) and (max-width: 1366px) {
-    padding-top: 0;
-  }
+
   img {
     margin: 0;
   }
-`;
+
+  @media only screen and (max-width: 1600px) {
+    padding-top: 30px;
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    padding-top: 0;
+  }
+`
 
 export const LeftContent = styled.div`
   max-width: 520px;
@@ -131,7 +134,7 @@ export const LeftContent = styled.div`
       max-width: 100%;
     }
   }
-`;
+`
 
 export const NotifyButton = styled.div`
   padding-top: 50px;
@@ -196,7 +199,7 @@ export const NotifyButton = styled.div`
       padding-right: 0;
     }
   }
-`;
+`
 
 export const ContactFormWrap = styled.div`
   @media only screen and (max-width: 600px) {
@@ -319,7 +322,7 @@ export const ContactFormWrap = styled.div`
     left: 0%;
     bottom: -120px;
   }
-`;
+`
 
 export const FooterSection = styled.div`
   position: relative;
@@ -364,7 +367,7 @@ export const FooterSection = styled.div`
     margin-bottom: 0;
     text-align: center;
   }
-`;
+`
 
 export const RightSection = styled.div`
   background-color: #fff;
@@ -450,6 +453,6 @@ export const RightSection = styled.div`
       }
     } */
   }
-`;
+`
 
-export default PageWrapper;
+export default PageWrapper
