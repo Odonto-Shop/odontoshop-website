@@ -46,7 +46,7 @@ const IndexPage = () => {
 
             <LeftContent>
               <p className='slogan'>
-                <span>Lançaremos em breve</span>
+                <span>Em breve</span>
               </p>
               <h2>
                 <span>

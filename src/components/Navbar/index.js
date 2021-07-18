@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import NavbarLinks from './links'
 
 import Logo from '../Logo'
-import { Navigation, Toggle, Navbox, Hamburger } from './style'
+import { Navigation, Toggle, Navbox, Hamburger } from './navbar.style'
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)

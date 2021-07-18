@@ -2,7 +2,7 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
 
-import { LogoWrap } from './style'
+import { LogoWrap } from './logo.style'
 
 const Logo = () => {
   return (

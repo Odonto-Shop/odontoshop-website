@@ -1,7 +1,7 @@
 import React from 'react'
 
 import links from './data'
-import { MenuList, NavItem } from './style'
+import { MenuList, NavItem } from './navbar.style'
 
 const NavbarLinks = () => {
   return (
